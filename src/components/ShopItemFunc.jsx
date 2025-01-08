@@ -1,6 +1,4 @@
-import { item } from "./item";
-
-export function ShopItemFunc() {
+export function ShopItemFunc({item}) {
     return (
         <div class="main-content">
             <h2>{item.brand}</h2>
